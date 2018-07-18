@@ -1,0 +1,21 @@
+---
+title: "markdown_example"
+output: html_document
+---
+
+
+### Experimenting with R studio markdown
+```{r warning=FALSE, message=FALSE}
+library(dplyr)
+```
+
+I'm going to do a simple R chunk
+```{r}
+x <- 2+2
+x
+```
+without R input
+```{r echo=FALSE}
+x <- 2+2
+x
+```

@@ -1,6 +1,10 @@
 ---
 title: "markdown_example"
-output: html_document
+output: 
+html_document:
+      theme: sandstone
+      toc: true
+      toc_float: true
 ---
 
 
